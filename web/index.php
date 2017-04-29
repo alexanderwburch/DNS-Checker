@@ -243,7 +243,7 @@
         <div class="inputarea">
             <h3>SPF/DKIM/DMARC</h3>
             <p>This tool will allow you to check if your domain has appropriate DNS records for email authentication. </p>
-            <p> Each domain host has a particular way of adding/editing DNS records. If you don't know your domain host (e.g. Godaddy), look it up <a href="https://www.webhostinghero.com/who-is-hosting/">here</a>. After adding the DNS records, enter your domain below to check if everything is working. Note that records can sometimes take a few hours to propagate. </p>
+            <p> Each domain host has a unique way of adding/editing DNS records. If you don't know your domain host (e.g. Godaddy), look it up <a href="https://www.webhostinghero.com/who-is-hosting/">here</a>. After adding the DNS records, enter your domain below to check if everything is working. Note that records can sometimes take a few hours to propagate. </p>
             <p>Please be aware that setting up DKIM/SPF/DMARC is not a "boost" for deliverability, and generally you won't see any noticeable improvement to deliverability after setting up authentication. For more information on why you may want to setup authentication for your domain, check out our <a href='https://help.activecampaign.com/hc/en-us/articles/206903370-DKIM-SPF-and-DMARC'>Domain Authentication help doc</a>.</p>
             <p>*You can setup domain authentication for as many domains as necessary. If you have enabled "I will manage my own email authentication", you need to setup authentication for all the From Address domains you use.</p>
             <input id="normaldomain" class="inputbox" type="text" name="domain">
