@@ -1,0 +1,6 @@
+{
+  "name": "ActiveCampaign DNS Checker",
+  "description": "An app for checking ActiveCampaign DKIM, SPF, DMARC, and CNAME records",
+  "repository": "https://github.com/alexanderwburch/DNS-Checker.git",
+  "addons": []
+}

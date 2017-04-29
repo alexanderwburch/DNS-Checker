@@ -1,0 +1,22 @@
+<table>
+  <tr id="row0">
+    <td>Original cell</td>
+  </tr>
+</table>
+
+<script>
+function addCell(tableRowID) {
+  // Get a reference to the tableRow
+  var rowRef = document.getElementById(tableRowID);
+
+  // Insert a cell in the row at cell index 0
+  var newCell   = rowRef.insertCell(0);
+
+  // Append a text node to the cell
+  var newText  = document.createTextNode('New cell')
+  newCell.appendChild(newText);
+}
+
+// Call addCell() with the ID of a table row
+addCell('row0');
+</script>
